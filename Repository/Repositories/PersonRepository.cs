@@ -4,9 +4,9 @@ using Repository.Interfaces.Repositories;
 
 namespace Repository.Repositories
 {
-    public class ContactRepository : Repository<Contact>, IContactRepository
+    public class PersonRepository : Repository<Person>, IPersonRepository
     {
-        public ContactRepository(DbContactSystemContext dbContext) 
+        public PersonRepository(DbContactSystemContext dbContext)
             : base(dbContext)
         {
         }
